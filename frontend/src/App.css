@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.photo {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
