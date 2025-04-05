@@ -1,7 +1,8 @@
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
-const { loadAlbum } = require('./facebook_export');
+const { loadAlbum } = require('./facebook_export/posts/albumLoader');
+
 
 const app = express();
 const PORT = 3001;
